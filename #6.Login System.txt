@@ -1,0 +1,6 @@
+How to Login in School Management system
+
+for hash password:
+import use Hash;
+
+dd(Hash::make(123456));
