@@ -1,0 +1,7 @@
+First we need to download admin themes form google so first go to google
+
+... search - AdminLte donload , and click download option's 
+
+
+when download done . Extract file and copy log in 2 html than paste welcome view and copy asset and add assest.than go to website and refresh 
+than we can see login form 

@@ -1,0 +1,11 @@
+Install Laravel and Remove Public Folder:
+
+..cmd composer create-project laravel/laravel etcnamehere
+
+
+
+
+
+
+
+

@@ -1,0 +1,74 @@
+TU01:
+
+School management system:
+
+1.===> Admin   //Admin can login & and admin see all the things
+2.===> Teacher //Teacher can login $and see his students //Teacher have extra option on there dashboad
+3.===> Student //Student can login  //Student's have extra options
+4.===> Parent  //Parent can login  $and see his children or son //parent's have extra option on there dashboard
+5.===> Class   //Class routine included
+6.===> Cource  //cource details
+7.===> Fee     //Fee details
+
+TU2:
+
+Explain About this project :
+
+1.Dasboard :: Here some features like : 
+		*All Time Received Payment
+		*Today Received Payment
+		*Total Student
+		*Total Teacher
+		*Total Project
+		*Total Admin
+		*Total Exam
+		*Total Class
+		*Total Subject
+
+2.Admin :: We can create a New admin & here some details about this admin or total admin. 
+	   and we can edit/update,delete,send message
+  also we can search admin by filter with name ,email,date.
+
+3.Teacher ::  Here we can add teacher , and here all of data about teacher's,Teacher's can 
+	      create account,edit,delete send message
+4.Student ::  Student's information ,Teacher's,Admin ,Parent like same features,,,Admin obiously have piority's
+
+5.Parent ::   Same like teacher,student ,, Parent can see his son or student
+
+6.Academics :: We can add class, Add class,edit class,delete class.
+
+7.Subject :: Subject name,subject type,status,created by created date, edit,delete,add ,search filter
+
+8.Assign Subject :: we can assign subject 
+
+9.Class Timetable :: We can filter class with class name or subject name,,,and we can get about class details if class exit .
+		     and we can update class time
+
+10.Assign Class teacher :: If we need to assign which class take which teacher than we can assign teacher's
+
+11.Fees collection :: We can sees fees collection here like, Class name ,total ammount,Paid ammount,created date,action collect fees
+
+		      when we can click on the collect fees we can see paid amount or not paid ammount and when we can click on the 
+		       
+                      add fees thn we can add fees...And there have another feautures Collect fees report's here all the details about
+			
+		      fees. 
+
+12.Examinations :: Exam Detailsh,,Exam Schedule,,,Marks register,,Marks Grade,,
+		   
+		   exam date,start time,end time,room number,full marks,passing marks,subject name
+
+13.Attendance ::  Student's status,attendance  Report's
+
+
+14.Communicate :: Notice Board,Send Email
+
+15.Homework ::  Details about homework
+
+16.My Account ::
+
+17.Setting :: 
+
+18.Change Password ::
+
+19.Logout ::

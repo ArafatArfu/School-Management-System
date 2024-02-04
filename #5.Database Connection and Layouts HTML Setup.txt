@@ -1,0 +1,5 @@
+This video we can see how to make a  database connection. First we create database connection..
+database name school.com
+
+
+than we can set admin and admin dashboard front theme...
