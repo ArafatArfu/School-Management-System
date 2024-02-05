@@ -1,0 +1,5 @@
+Clean html theme , Remove some part like search,fullscreen part we don't need,Home,contact we don't need
+
+and more features we don't need. 
+
+make active classes,html theme clean ,,higher-header title ,,
