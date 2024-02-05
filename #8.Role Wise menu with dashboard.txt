@@ -1,0 +1,4 @@
+Role wish dashboard... for admin,teacher,student ,parent
+Admin, Dashboard, and logout  divided by rollwise and controller wise
+
+
