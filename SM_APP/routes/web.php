@@ -46,17 +46,30 @@ Route::group(['middleware'=>'admin'],function(){
     Route::get('admin/admin/delete/{id}',[AdminController::class,'AdminDelete']);  
     
 });
-  
+                        //Teacher
+
+
 Route::group(['middleware'=>'teacher'],function(){
 
     Route::get('teacher/dashboard',[DashboardController::class,'dashboard']);
     
-});
+});         
+
+
+                        //Student
+
+
 Route::group(['middleware'=>'student'],function(){
 
     Route::get('student/dashboard',[DashboardController::class,'dashboard']);
     
 });
+
+
+
+
+                        //Parent
+
 
 Route::group(['middleware'=>'parent'],function(){
 
@@ -64,8 +77,13 @@ Route::group(['middleware'=>'parent'],function(){
 
 });
 
+
+
+
+
+
     //Admin/dashboard
-Route::get('admin/dashboard',function(){
-    return view('admin.dashboard');
-});
+// Route::get('admin/dashboard',function(){
+//     return view('admin.dashboard');
+// });
 
