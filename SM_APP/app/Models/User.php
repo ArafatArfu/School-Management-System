@@ -44,7 +44,6 @@ class User extends Authenticatable
         'password' => 'hashed',
     ];
 
-
                 //Get email single
 
     static public function getEmailSingle($email)
@@ -59,5 +58,22 @@ class User extends Authenticatable
         return User::where('remember_token', '=' , $remember_token)->first();
     }
     
+
+                //Get Admin
+
+    static public function getAdmin(){
+        return User::select('users.*')->where('user_type','=',1)
+                                        ->where('is_delete','=',0)
+                                        ->orderBy('id','desc')
+                                        ->get();
+    }
+
+
+                //For admin edit
+    
+    static public function getSingle($id){
+        return User::find($id);
+    }
+
 
 }
